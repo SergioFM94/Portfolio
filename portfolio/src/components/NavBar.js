@@ -1,36 +1,25 @@
-import React, { useState } from "react";
-import App from "../App.css";
+import './NavBar.css'
+import React, { useState } from 'react';
 
 function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  const handleToggle = () => {
-    setIsOpen(!isOpen);
-  };
+  function handleMenuClick() {
+    setMenuOpen(!menuOpen);
+  }
 
   return (
-    <nav>
-      <div className="logo">
-        <a href="#">Logo</a>
-      </div>
-      <div className={`menu-toggle ${isOpen ? "open" : ""}`} onClick={handleToggle}>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <ul className={`nav-links ${isOpen ? "open" : ""}`}>
-        <li>
-          <a href="#">Inicio</a>
-        </li>
-        <li>
-          <a href="#">Sobre Mi</a>
-        </li>
-        <li>
-          <a href="#">Proyectos</a>
-        </li>
-        <li>
-          <a href="#">Contacto</a>
-        </li>
+    <nav className="navbar">
+      <a href='#' className='menu-logo'>Sergio Fernández{["/>"]}</a>
+      <button className="menu-icon" onClick={handleMenuClick}>
+        <span className="menu-icon__line"></span>
+        <span className="menu-icon__line"></span>
+        <span className="menu-icon__line"></span>
+      </button>
+      <ul className={`nav-links ${menuOpen ? "nav-links--open" : ""}`}>
+        <li>Inicio</li>
+        <li>Productos</li>
+        <li>Contacto</li>
       </ul>
     </nav>
   );

@@ -1,0 +1,57 @@
+* {
+    color: #9C9DA0;
+}
+
+@media screen and (max-width: 480px) {
+    .portada{
+        margin: 25px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+    }
+
+    .portada-contenido{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-right: 30px;
+    }
+
+    .portada-titulo{
+        margin-bottom: 0.5px;
+    }
+
+    .portada-slogan{
+        font-size: 11px;
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+
+    .portada-contacto{
+        padding: 16px;
+        background-color: azure;
+        color: #0f0f0f;
+        text-decoration: none;
+        margin: 5px 0 25px 0;
+    }
+
+    .portada-social-media{
+        display: flex;
+        align-items: baseline;
+        gap: 15px;
+    }
+
+    .portada-social-media a {
+        text-decoration: none;
+    }
+
+    .portada-boton-cv{
+        padding: 16px;
+        background-color: azure;
+        color: #0f0f0f;
+        margin: 5px 0 25px 0;
+    }
+}

@@ -1,0 +1,22 @@
+@media screen and (max-width: 480px) {
+    .sobre-mi{
+        margin: 25px;
+        margin-bottom: 100px;
+    }
+
+    .sobre-mi p{
+        padding-bottom: 20px;
+    }
+
+    h2{
+        margin: 0;
+    }
+
+    .sobre-mi-boton{
+        padding: 15px;
+        margin-top: 116px;
+        background-color: white;
+        color: #0f0f0f;
+        text-decoration: none;
+    }
+}

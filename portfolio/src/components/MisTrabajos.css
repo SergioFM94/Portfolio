@@ -1,0 +1,54 @@
+.mis-trabajos-botones a{
+    padding: 20px;
+    background-color: #fff;
+    color: #0d0d0d;
+}
+
+.mis-trabajos-titulo{
+    color: #f5eded;
+}
+
+.mis-trabajos-botones{
+    display: flex;
+    gap: 20px;
+    margin: 20px 0 20px 0;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.mis-trabajos-mas-trabajos{
+    margin: 60px 0 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.mis-trabajos-mas{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #33FFA9;
+    color: #0d0d0d;
+    width: 200px;
+}
+
+@media screen and (max-width: 480px) {
+    .mis-trabajos{
+        margin: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .mis-trabajos-contenido{
+        padding-top: 40px;
+        margin: 20px 0 20px 0;
+    }
+
+    .mis-trabajos-img{
+        width: 350px;
+        height: 350px;
+    }
+}
