@@ -15,12 +15,12 @@ export const MisTrabajos = () => {
                 <h2 className="trabajo-titulo">Pokedex</h2>
                 <p>
                     Proyecto que nos permite buscar diferentes pokemon's y mostrar sus estadísticas, 
-                    valiéndonos de consultas a la API <a href="https://pokeapi.co/">pokeapi.co</a>. 
+                    valiéndonos de consultas a la API <a href="https://pokeapi.co/"  className="link-hover">pokeapi.co</a>. 
                     El sitio ha sido desarrollado usando React, Vite y subido a Netlify.
                 </p>
                 <div className="mis-trabajos-botones">
-                    <a href="https://sfm94-pokedex.netlify.app/">Ver demo</a>
-                    <a href="https://github.com/SergioFM94/Pokedex">Ver repositiorio</a>
+                    <a href="https://sfm94-pokedex.netlify.app/" className="boton-hover">Ver demo</a>
+                    <a href="https://github.com/SergioFM94/Pokedex"  className="boton-hover">Ver repositiorio</a>
                 </div>
             </div>
             <img src="pokedex.PNG" alt="imagen pokemon" className="mis-trabajos-img"/>
@@ -35,8 +35,8 @@ export const MisTrabajos = () => {
                     usando WaterCSS para el estilo con pequeñas modificaciones.
                 </p>
                 <div className="mis-trabajos-botones">
-                    <a href="https://smf94-movie-finder.netlify.app/">Ver demo</a>
-                    <a href="https://github.com/SergioFM94/movie-finder">Ver repositiorio</a>
+                    <a href="https://smf94-movie-finder.netlify.app/" className="boton-hover">Ver demo</a>
+                    <a href="https://github.com/SergioFM94/movie-finder" className="boton-hover">Ver repositiorio</a>
                 </div>
             </div>
 
@@ -48,12 +48,12 @@ export const MisTrabajos = () => {
                 <h2 className="mis-trabajos-titulo">The Floor is Lava</h2>
                 <p>
                     Videojuego realizado en 48 horas para la gameJam 
-                    <a href="https://itch.io/jam/mini-jam-128-health"> Mini Jam 128: Health.</a> El juego está 
+                    <a href="https://itch.io/jam/mini-jam-128-health" className="link-hover"> Mini Jam 128: Health.</a> El juego está 
                     desarrollado en Unity usando el lenguaje C# y para los sprites usé el editor Aseprite.
                 </p>
                 <div className="mis-trabajos-botones"> 
-                    <a href="https://neku1994.itch.io/the-floor-is-lava">Jugar</a>
-                    <a href="https://github.com/SergioFM94/Mini-Jam-128-Health">Ver repositiorio</a>
+                    <a href="https://neku1994.itch.io/the-floor-is-lava" className="boton-hover">Jugar</a>
+                    <a href="https://github.com/SergioFM94/Mini-Jam-128-Health" className="boton-hover">Ver repositiorio</a>
                 </div>
             </div>
             
@@ -69,7 +69,7 @@ export const MisTrabajos = () => {
                     usé la librería Leaflet.js. Fué mi proyecto final de curso.
                 </p>
                 <div className="mis-trabajos-botones">
-                    <a href="https://github.com/SergioFM94/Fut-Go">Ver repositiorio</a>
+                    <a href="https://github.com/SergioFM94/Fut-Go" className="boton-hover">Ver repositiorio</a>
                 </div>
             </div>
             <img src="futgo.png" alt="Web mapa con ubicaciones de pistas de futbol" className="mis-trabajos-img"/>

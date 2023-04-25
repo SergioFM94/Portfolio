@@ -22,7 +22,7 @@ export const SobreMi = () => {
             </p>
             <a 
               href="https://www.linkedin.com/in/sergio-fern%C3%A1ndez-muyor-front-end/"
-              className="sobre-mi-boton"
+              className="sobre-mi-boton boton-hover"
             >
               Perfíl de Linkedin {["/>"]}
             </a>
