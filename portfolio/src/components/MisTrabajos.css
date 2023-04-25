@@ -1,11 +1,45 @@
-.mis-trabajos-botones a{
-    padding: 20px;
-    background-color: #fff;
-    color: #0d0d0d;
+.mis-trabajos{
+    padding: 42px;
+    display: flex;
+    flex-direction: column;
 }
 
-.mis-trabajos-titulo{
+.mis-trabajos-titulo-principal{
+    display: flex;
+    align-items: baseline;
+}
+
+.mis-trabajos-titulo-principal h1{
+    min-width: 180px;
+}
+
+.mis-trabajos-contenido{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin: 80px;
+    
+}
+
+.mis-trabajos-descripcion{
+    max-width: 600px;
+}
+
+.mis-trabajos-img{
+   width: 400px ;
+   height: 400px;
+}
+
+.mis-trabajos-botones a{
+    padding: 15px;
+    background-color: #fff;
+    color: #0d0d0d;
+    
+}
+
+.trabajo-titulo{
     color: #f5eded;
+
 }
 
 .mis-trabajos-botones{
@@ -20,7 +54,7 @@ a{
 }
 
 .mis-trabajos-mas-trabajos{
-    margin: 60px 0 40px 0;
+    margin: 0 0 40px 0;
     display: flex;
     justify-content: center;
 }
@@ -36,19 +70,20 @@ a{
 
 @media screen and (max-width: 480px) {
     .mis-trabajos{
-        margin: 25px;
+        padding: 25px;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
     .mis-trabajos-contenido{
-        padding-top: 40px;
-        margin: 20px 0 20px 0;
+        margin: 0 0 80px 0;
+        flex-direction: column;
+        gap: 10px;
     }
 
     .mis-trabajos-img{
-        width: 350px;
-        height: 350px;
+        width: 325px;
+        height: 325px;
     }
 }
